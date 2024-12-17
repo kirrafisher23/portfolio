@@ -2652,8 +2652,79 @@ input, select, textarea {
 		cursor: pointer; /* Add pointer cursor */
 	}
 	
+
+	.show-what-i-know{
+		text-decoration: none;
+		position: relative;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.show-what-i-know.circle {
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		border: 0;
+		display: inline-block;
+		font-size: 4em;
+		height: 4em;
+		left: 0;
+		line-height: 4em;
+		text-align: center;
+		text-decoration: none;
+		top: 0;
+		width: 4em;
+	}
+
+	.show-what-i-know a {
+		display: inline-block; /* Ensure the anchor behaves correctly */
+		color: white;          /* Icon/text color */
+		height: 4em;
+		font-size: 5em;        /* Adjust icon size */
+		transition: background 0.3s ease; /* Smooth hover effect */
+	}	
+
+	.show-what-i-know a.fa-js {
+		background: coral;
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-react {
+		background: steelblue;
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-php {
+		background: rgb(70, 180, 103);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-bootstrap {
+		background: rgb(180, 70, 112);
+		color: #fff;
+	}
 	
-	
+	.show-what-i-know a.fa-angular {
+		background: rgb(180, 70, 153);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-figma {
+		background: rgb(110, 70, 180);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-node {
+		background: rgb(180, 70, 70);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-wordpress {
+		background: rgb(167, 165, 70);
+		color: #fff;
+	}
+
 
 /* CTA */
 
