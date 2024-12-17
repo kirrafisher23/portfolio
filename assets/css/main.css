@@ -1934,33 +1934,6 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: #fff;
-			}
-
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
-				}
-
-			.icon.circle.fa-facebook-f {
-				background: #7490c3;
-				color: #fff;
-			}
-
-				.icon.circle.fa-facebook-f:hover {
-					background: #829bc9;
-				}
-
-			.icon.circle.fa-google-plus-g {
-				background: #db6b67;
-				color: #fff;
-			}
-
-				.icon.circle.fa-google-plus-g:hover {
-					background: #df7b77;
-				}
-
 			.icon.circle.fa-github {
 				background: #dcad8b;
 				color: #fff;
@@ -1970,14 +1943,34 @@ input, select, textarea {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-linkedin {
 				background: #da83ae;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #df93b8;
 				}
+		
+			.icon.circle.fa-google {
+					background: #8ada83;
+					color: #fff;
+				}
+	
+				.icon.circle.fa-google:hover {
+						background: #8ada83;
+				}
+
+			.icon.circle.fa-phone {
+					background: #83bada;
+					color: #fff;
+			}
+	
+				.icon.circle.fa-phone:hover {
+						background: #83bada;
+				}
+				
+	
 
 		.icon.featured {
 			cursor: default;
@@ -2597,7 +2590,8 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 3em 0;
+		padding-bottom: 5em;
 	}
 
 		#main > :last-child {
@@ -2619,6 +2613,118 @@ input, select, textarea {
 	body.index #main {
 		padding-top: 5em;
 	}
+	
+	.special-container {
+		text-align: center; /* Centers the content */
+		padding-bottom: 4%;
+	}
+	
+	.special-container p {
+		margin: 0 auto;
+		max-width: 800px; /* Keeps the text narrow and readable */
+	}
+	
+	.buttons {
+		display: flex;
+		justify-content: center; /* Center the button horizontally */
+		margin-top: 1em;
+		width: 100%;
+	}
+	
+	.buttons li {
+		display: block; /* Ensures the li fully wraps its content */
+		width: auto; /* Allow li to size naturally */
+	}
+	
+	.buttons a {
+		display: inline-block; /* Allows the button to expand based on padding */
+		padding: 0.75em 1.5em; /* Adjust button size */
+		color: rgb(155, 155, 155); /* Text color */
+		text-align: center;
+		text-decoration: none; /* Removes underline */
+		border: 1px solid #ddd; /* Optional border for visibility */
+		transition: background-color 0.3s ease; /* Smooth hover effect */
+	}
+	
+	.buttons a:hover {
+		background-color: #333; /* Dark hover color */
+		color: white; /* Text color on hover */
+		cursor: pointer; /* Add pointer cursor */
+	}
+	
+
+	.show-what-i-know{
+		text-decoration: none;
+		position: relative;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+	.show-what-i-know.circle {
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		border: 0;
+		display: inline-block;
+		font-size: 4em;
+		height: 4em;
+		left: 0;
+		line-height: 4em;
+		text-align: center;
+		text-decoration: none;
+		top: 0;
+		width: 4em;
+	}
+
+	.show-what-i-know a {
+		display: inline-block; /* Ensure the anchor behaves correctly */
+		color: white;          /* Icon/text color */
+		height: 4em;
+		font-size: 5em;        /* Adjust icon size */
+		transition: background 0.3s ease; /* Smooth hover effect */
+	}	
+
+	.show-what-i-know a.fa-js {
+		background: coral;
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-react {
+		background: steelblue;
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-php {
+		background: rgb(70, 180, 103);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-bootstrap {
+		background: rgb(180, 70, 112);
+		color: #fff;
+	}
+	
+	.show-what-i-know a.fa-angular {
+		background: rgb(180, 70, 153);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-figma {
+		background: rgb(110, 70, 180);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-node {
+		background: rgb(180, 70, 70);
+		color: #fff;
+	}
+
+	.show-what-i-know a.fa-wordpress {
+		background: rgb(167, 165, 70);
+		color: #fff;
+	}
+
 
 /* CTA */
 
