@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 
 /*
 	Twenty by HTML5 UP
@@ -2725,6 +2726,15 @@ input, select, textarea {
 		color: #fff;
 	}
 
+	/* for ui page*/
+
+	.header{
+		text-align: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+
+	}
+
 
 /* CTA */
 
@@ -2760,6 +2770,7 @@ input, select, textarea {
 
 			#footer .copyright a {
 				color: inherit;
+				
 			}
 
 			#footer .copyright li {
@@ -2767,12 +2778,19 @@ input, select, textarea {
 				margin-left: 1em;
 				padding-left: 1em;
 				border-left: dotted 1px;
+				font-family: a;
 			}
 
 				#footer .copyright li:first-child {
 					margin: 0;
 					padding: 0;
 					border: 0;
+				}
+
+
+				#footer .copyright li {
+					font-family: 'Aguafina Script';
+					font-size: 22px;
 				}
 
 /* Wide */
