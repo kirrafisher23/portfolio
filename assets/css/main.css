@@ -2951,6 +2951,40 @@ input, select, textarea {
 
 	}
 
+
+	.icon-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%; /* Or adjust based on container size */
+	}
+	
+	/* Add hover effect to the anchor tag inside the container */
+	.icon-container a:hover {
+	transition: background 0.3s ease; /* Smooth hover effect */
+	}
+	
+	/* Specific styles for the Figma icon */
+	.icon-container .circle.fa-figma {
+		background: #8baadc;
+		color: #fff;
+		font-size: 1em; /* Adjust the size as needed */
+		display: inline-block;
+		text-align: center;
+		line-height: 3em; /* Matches the height for alignment */
+		width: 3em; /* Ensure it's circular */
+		height: 3em;
+		border-radius: 50%; /* Makes it circular */
+		transition: background 0.2s ease-in-out; /* Smooth hover color change */
+	}
+	
+	/* Change background on hover for the specific Figma icon */
+	.icon-container .circle.fa-figma:hover {
+		background: #e19b9b;
+	}
+	
+	
+
 /* Narrower */
 
 	#navPanel, #navButton {
