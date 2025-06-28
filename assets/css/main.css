@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 
 /*
 	Twenty by HTML5 UP
@@ -2725,6 +2726,15 @@ input, select, textarea {
 		color: #fff;
 	}
 
+	/* for ui page*/
+
+	.header{
+		text-align: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+
+	}
+
 
 /* CTA */
 
@@ -2760,6 +2770,7 @@ input, select, textarea {
 
 			#footer .copyright a {
 				color: inherit;
+				
 			}
 
 			#footer .copyright li {
@@ -2767,12 +2778,19 @@ input, select, textarea {
 				margin-left: 1em;
 				padding-left: 1em;
 				border-left: dotted 1px;
+				font-family: a;
 			}
 
 				#footer .copyright li:first-child {
 					margin: 0;
 					padding: 0;
 					border: 0;
+				}
+
+
+				#footer .copyright li {
+					font-family: 'Aguafina Script';
+					font-size: 22px;
 				}
 
 /* Wide */
@@ -2932,6 +2950,40 @@ input, select, textarea {
 			}
 
 	}
+
+
+	.icon-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%; /* Or adjust based on container size */
+	}
+	
+	/* Add hover effect to the anchor tag inside the container */
+	.icon-container a:hover {
+	transition: background 0.3s ease; /* Smooth hover effect */
+	}
+	
+	/* Specific styles for the Figma icon */
+	.icon-container .circle.fa-figma {
+		background: #8baadc;
+		color: #fff;
+		font-size: 1em; /* Adjust the size as needed */
+		display: inline-block;
+		text-align: center;
+		line-height: 3em; /* Matches the height for alignment */
+		width: 3em; /* Ensure it's circular */
+		height: 3em;
+		border-radius: 50%; /* Makes it circular */
+		transition: background 0.2s ease-in-out; /* Smooth hover color change */
+	}
+	
+	/* Change background on hover for the specific Figma icon */
+	.icon-container .circle.fa-figma:hover {
+		background: #e19b9b;
+	}
+	
+	
 
 /* Narrower */
 
