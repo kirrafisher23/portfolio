@@ -1,0 +1,7 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / Python stuff if ever used
+node_modules/
+__pycache__/
